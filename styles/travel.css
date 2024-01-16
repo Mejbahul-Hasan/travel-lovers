@@ -1,0 +1,80 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap');
+*{
+    font-family: 'Mulish';
+}
+/* common style */
+
+
+/* Nav style */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 125px 0 135px;
+}
+.nav-logo{
+    display: inline-flex;
+}
+.logo-text-1{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin: 0 10px;
+}
+.logo-text-2{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-link > ul {
+    list-style: none;
+    color: #424247;
+    display: flex;
+}
+.nav-link li{
+    margin-right: 25px;
+}
+.nav-link li a{
+    text-decoration: none;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-text > h2{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: -350px;
+}
+.banner-text > p{
+    color: #FFF;
+    font-weight: 400;
+    margin: 30px 350px;
+}
+.banner-input {
+    background: rgba(193, 182, 182, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0 185px   ;
+}
+.banner-input > input, select {
+    width: 174px;
+    height: 52px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 25px;
+}
+.banner-input .btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+}
+
